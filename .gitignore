@@ -1,0 +1,54 @@
+# Бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/server
+/bin/
+/dist/
+
+# Файлы специфичные для Go
+/go/
+/.go/
+
+# Тестовые файлы
+*.test
+*.test.exe
+*.ps1
+
+# Файлы покрытия кода
+*.out
+*.html
+*.css
+
+# Папка vendor (если будешь использовать)
+/vendor/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+*.log.*
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Docker
+Dockerfile.dev
+docker-compose.override.yml
+
+# Временные файлы
+/tmp/
+/temp/
